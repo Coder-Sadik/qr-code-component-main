@@ -7,4 +7,41 @@
 body{
     font-family: "Outfit", sans-serif;
     background-color: hsl(212, 45%, 89%);
+    height: 100vh;
+}
+p{
+    font-weight: 400;
+    font-size: 15px;
+
+}
+h2{
+    font-weight: 700;
+}
+.card-container{
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background-color: hsl(0, 0%, 100%);
+    width: 300px;
+    height: max-content;
+    padding: 15px;
+    border-radius: 20px;
+    
+}
+
+.card img{
+    height: 300px;
+    width: 270px;
+    border-radius: 20px;
+}
+.texts{
+    text-align: center;
+    margin: 15px;
+}
+.texts p{
+    margin-top: 15px;
 }
